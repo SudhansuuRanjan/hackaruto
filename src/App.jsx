@@ -1,11 +1,17 @@
 import { useState } from 'react'
-import './App.css'
+import './index.css'
+import {Hero , Footer , Loader, NavBar} from './components';
 
 function App() {
   
   return (
-    <div className="App">
-     <h1>Hackaruto Official Site</h1>
+    <div className="min-h-screen">
+      <div className="">
+        <NavBar/>
+        <Hero/>
+      </div>
+        <Loader/>
+        <Footer/>
     </div>
   )
 }
