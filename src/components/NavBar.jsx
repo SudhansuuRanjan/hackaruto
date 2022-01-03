@@ -16,9 +16,19 @@ const NavBarItem = ({ title , classProps}) =>{
 
 const Navbar = () => {
    const [toggleMenu , setToggleMenu ] = useState(false);
+   const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 50){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
 
     return (
-        <nav className="w-full flex md:justify-center justify-between items-center p-4">
+        <nav className={colorChange?"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-999 bg-white drop-shadow":"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-999 bg-white"}>
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
         <img src={logo} alt="logo" className="w-32 cursor-pointer" />
       </div>
