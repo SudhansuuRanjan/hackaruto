@@ -50,7 +50,7 @@ const Navbar = () => {
         {toggleMenu && (
           <ul
             className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
-            flex flex-col justify-start items-center rounded-md blue-glassmorphism text-black animate-slide-in text-2xl font-semibold"
+            flex flex-col justify-start items-center rounded-md bg-white text-black animate-slide-in text-2xl font-semibold"
           >
             <li className="text-2xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
             {["Home", "About", "Features","Services", "Contact"].map(

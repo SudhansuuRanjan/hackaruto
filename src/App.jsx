@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import './index.css'
-import {Hero , Footer , Loader, NavBar} from './components';
+import {Hero , Footer , Loader, NavBar, About} from './components';
 
 function App() {
   
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen hackaruto-body">
       <div className="">
         <NavBar/>
         <Hero/>
+        <About/>
       </div>
         <Loader/>
         <Footer/>

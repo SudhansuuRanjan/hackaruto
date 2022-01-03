@@ -9,9 +9,9 @@ import homeimg from '../../resources/home-img.svg'
 const Hero = () => {
     
     return (
-        <div className='hero flex items-center justify-evenly mt-[8rem] ml-[3rem]'>
-           <div className="hero-left max-w-md">
-               <h1 className='text-5xl text-black font-bold '>
+        <div className='hero flex flex-col items-center justify-center lg:justify-evenly mt-[8rem] lg:ml-[3rem] lg:flex-row '>
+           <div className="hero-left max-w-sm">
+               <h1 className='text-4xl lg:text-5xl text-black font-bold '>
                    <span className='text-black flex'>
                       Simplify your
                    </span>
@@ -19,19 +19,19 @@ const Hero = () => {
                        SEO strategy.
                    </span>
                </h1>
-               <p className='text-md text-gray-500 my-4'>
+               <p className='text-md text-gray-500 my-4 max-w-xs md:max-w-lg lg:max-w-lg'>
                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, quasi.
                </p>
-               <div className='flex'>
-                   <button className='bg-green-600 py-1.5 px-4 rounded-xl ml-0 mr-3 my-5 text-white'>Let's Work Together</button>
-                   <button className='py-1.5 px-4 rounded-xl ml-0 mr-3 my-5 text-green-600 hover:bg-green-600 hover:text-white border-2  border-green-600 hover:border-white'>Join the team</button>
+               <div className='flex flex-col lg:flex-row my-5'>
+                   <button className='bg-green-600 py-2 px-4 rounded-xl ml-0 mr-3 my-0 text-white'>Let's Work Together</button>
+                   <button className='py-2 px-4 rounded-xl ml-0 mr-3 my-5 lg:my-0 text-green-600 hover:bg-green-600 hover:text-white border-2  border-green-600 hover:border-white'>Join the team</button>
                </div>
                <div className='mt-[0.5rem]'>
                    <p className='text-gray-400'>
                        TRUSTED BY:
                    </p>
-                   <div className='flex items-center mt-[0.5rem]'>
+                   <div className='justify-center grid items-center mt-[0.5rem] grid-cols-2 lg:grid-cols-4'>
                        <img src={fitbit} alt="" className='' />
                        <img src={nasa} alt="" className='' />
                        <img src={google} alt="" className='' />
@@ -40,7 +40,7 @@ const Hero = () => {
                </div>
            </div>
            <div className="z-1">
-               <img src={homeimg} alt="" className='h-[28rem] z-1 ml-[5rem] mt-[1rem]'/>
+               <img src={homeimg} alt="" className='h-[28rem] z-1  mt-[-2rem] md:mt-[0rem] lg:ml-[5rem] lg:mt-[1rem]'/>
            </div>
         </div>
     )
