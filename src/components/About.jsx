@@ -120,11 +120,11 @@ const About = () => {
         and Motivation
       </h1>
 
-      <div className="flex justify-evenly mt-[4rem]">
-              <div>
+          <div className="flex flex-col items-center lg:flex-row md:flex-row justify-center lg:justify-evenly m-[auto] mt-[2rem] content-around self-center">
+              <div className="mt-[2rem]">
                      <img src={vision} alt="" className="max-h-[35rem]" />
               </div>
-              <div className="max-w-md">
+              <div className="max-w-md mt-[2rem]">
                    <h2 className="text-2xl font-extrabold pl-10 pr-10">
                        <span className="text-green-600 text-3xl">“</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi ratione cupiditate<span className="text-green-600 text-2xl">iste dolorum molestias</span> itaque! Quod optio itaque numquam, neque ea obcaecati quia illum enim est possimus <span className="text-green-600 text-2xl">iste dolorum molestias</span> vero quam, vitae voluptas alias laudantium provident, et beatae cumque ipsa libero. Quos, similique optio! Iusto rerum <span className="text-green-600 text-2xl">iste dolorum molestias</span>molestiae animi unde quam aperiam! Lorem ipsum dolor Lorem ipsum dolor sit amet. <span className="text-green-600 text-3xl"> ”</span>
                    </h2>
@@ -132,6 +132,7 @@ const About = () => {
                 
               </div>
       </div>
+      
 
     </div>
   );
