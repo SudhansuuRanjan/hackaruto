@@ -120,19 +120,45 @@ const About = () => {
         and Motivation
       </h1>
 
-          <div className="flex flex-col items-center lg:flex-row md:flex-row justify-center lg:justify-evenly m-[auto] mt-[2rem] content-around self-center">
+          <div className="flex flex-col items-center lg:flex-row md:flex-row justify-center lg:justify-evenly m-[auto] mt-[2rem] content-around self-center items-center mb-[3rem]">
               <div className="mt-[2rem]">
-                     <img src={vision} alt="" className="max-h-[35rem]" />
+                     <img src={vision} alt="" className="max-h-[32rem] " />
               </div>
-              <div className="max-w-md mt-[2rem]">
-                   <h2 className="text-2xl font-extrabold pl-10 pr-10">
-                       <span className="text-green-600 text-3xl">“</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi ratione cupiditate<span className="text-green-600 text-2xl">iste dolorum molestias</span> itaque! Quod optio itaque numquam, neque ea obcaecati quia illum enim est possimus <span className="text-green-600 text-2xl">iste dolorum molestias</span> vero quam, vitae voluptas alias laudantium provident, et beatae cumque ipsa libero. Quos, similique optio! Iusto rerum <span className="text-green-600 text-2xl">iste dolorum molestias</span>molestiae animi unde quam aperiam! Lorem ipsum dolor Lorem ipsum dolor sit amet. <span className="text-green-600 text-3xl"> ”</span>
+              <div className="max-w-md mt-[2rem] md:max-w-sm">
+                   <h2 className="text-2xl md:text-xl font-extrabold pl-10 pr-10">
+                       <span className="text-green-600 text-3xl  md:text-xl">“</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi ratione cupiditate<span className="text-green-600 text-2xl md:text-xl">iste dolorum molestias</span> itaque! Quod optio itaque numquam, neque ea obcaecati quia illum enim est possimus <span className="text-green-600 text-2xl md:text-xl">iste dolorum molestias</span> vero quam, vitae voluptas alias laudantium provident, et beatae cumque ipsa libero. Quos, similique optio! Iusto rerum <span className="text-green-600 text-2xl md:text-xl">iste dolorum molestias</span>molestiae animi unde quam aperiam! Lorem ipsum dolor Lorem ipsum dolor sit amet. <span className="text-green-600 text-3xl md:text-xl"> ”</span>
                    </h2>
 
                 
               </div>
       </div>
-      
+
+      <div>
+        <div className="bg-green-200 w-[80%] m-[auto] rounded-3xl ">
+              <div className="flex text-green-800 text-2xl font-extrabold p-[1rem] lg:justify-evenly pt-10 flex-col lg:flex-row md:justify-center items-center  max-w-[90%] m-[auto]">
+                  <div className="lg:max-w-[20rem] mb-[1rem]">
+                    <h1 >Hackaruto takes you on amazing voyages every turn of the way.</h1>
+                  </div>
+                  <div className="h-1 w-[100%] lg:h-[8rem] lg:w-1 bg-green-800 mb-[1rem]" >
+
+                  </div>
+                  <div className="flex justify-evenly  gap-10">
+                    <div className="text-center">
+                       <h1>1</h1>
+                       <h1>Year</h1>
+                    </div>
+                    <div className="text-center">
+                       <h1>2</h1>
+                       <h1>Flagship<br/>Events</h1>
+                    </div>
+                    <div className="text-center">
+                       <h1>10+</h1>
+                       <h1>Projects &<br/>Sessions</h1>
+                    </div>
+                  </div>
+              </div> 
+        </div>
+      </div>
 
     </div>
   );
