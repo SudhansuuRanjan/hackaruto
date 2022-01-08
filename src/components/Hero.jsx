@@ -15,7 +15,7 @@ const Hero = () => {
                    <span className='text-black flex'>
                       Simplify your
                    </span>
-                   <span className='text-green-500 flex'>
+                   <span className='text-orange-500 flex'>
                        SEO strategy.
                    </span>
                </h1>
@@ -24,8 +24,8 @@ const Hero = () => {
                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, quasi.
                </p>
                <div className='flex flex-col lg:flex-row my-5'>
-                   <button className='bg-green-600 py-2 px-4 rounded-xl ml-0 mr-3 my-0 text-white'>Let's Work Together</button>
-                   <button className='py-2 px-4 rounded-xl ml-0 mr-3 my-5 lg:my-0 text-green-600 hover:bg-green-600 hover:text-white border-2  border-green-600 hover:border-white'>Join the team</button>
+                   <button className='bg-orange-500 py-2 px-4 rounded-xl ml-0 mr-3 my-0 text-white'>Let's Work Together</button>
+                   <button className='py-2 px-4 rounded-xl ml-0 mr-3 my-5 lg:my-0 text-orange-500 hover:bg-orange-500 hover:text-white border-2  border-orange-500 hover:border-white'>Join the team</button>
                </div>
                <div className='mt-[0.5rem]'>
                    <p className='text-gray-400'>

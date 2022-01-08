@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 
-import logo from '../../resources/finclip-logo.png'
+import logo from '../../resources/hackaruto-logo.png'
 
 const NavBarItem = ({ title , classProps}) =>{
     return (
@@ -30,13 +30,13 @@ const Navbar = () => {
     return (
         <nav className={colorChange?"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-999 bg-white drop-shadow":"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-999 bg-white"}>
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className="w-32 cursor-pointer" />
+        <img src={logo} alt="logo" className="h-10 cursor-pointer" />
       </div>
       <ul className="text-black md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Home", "About", "Features","Services", "Contact"].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
-        <li className="border-2 border-green-500 py-1.5 px-7 mx-4 rounded-xl cursor-pointer text-green-500 hover:bg-green-500 hover:text-white hover:border-white">
+        <li className="border-2 border-orange-500 py-1.5 px-7 mx-4 rounded-xl cursor-pointer text-orange-500 hover:bg-orange-500 hover:text-white hover:border-white">
           Register
         </li>
       </ul>
