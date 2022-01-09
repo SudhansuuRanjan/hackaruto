@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './index.css'
-import {Hero , Footer , Loader, NavBar, About} from './components';
+import {Hero , Footer , Loader, NavBar, About, Projects} from './components';
 
 function App() {
   
@@ -10,6 +10,7 @@ function App() {
         <NavBar/>
         <Hero/>
         <About/>
+        <Projects/>
       </div>
         <Loader/>
         <Footer/>
