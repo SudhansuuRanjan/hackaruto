@@ -140,7 +140,7 @@ const About = () => {
               <div className="mt-[2rem]">
                      <img src={vision} alt="" className="max-h-[32rem] " />
               </div>
-              <div className="max-w-md mt-[2rem] md:max-w-sm">
+              <div className="max-w-md mt-[2rem] md:max-w-md lg:max-w-lg">
                    <h2 className="text-2xl md:text-xl font-extrabold pl-10 pr-10">
                        <span className="text-orange-600 text-3xl  md:text-xl">“</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi ratione cupiditate<span className="text-orange-600 text-2xl md:text-xl">iste dolorum molestias</span> itaque! Quod optio itaque numquam, neque ea obcaecati quia illum enim est possimus <span className="text-orange-600 text-2xl md:text-xl">iste dolorum molestias</span> vero quam, vitae voluptas alias laudantium provident, et beatae cumque ipsa libero. Quos, similique optio! Iusto rerum <span className="text-orange-600 text-2xl md:text-xl">iste dolorum molestias</span>molestiae animi unde quam aperiam! Lorem ipsum dolor Lorem ipsum dolor sit amet. <span className="text-orange-600 text-3xl md:text-xl"> ”</span>
                    </h2>
@@ -149,7 +149,7 @@ const About = () => {
               </div>
       </div>
 
-      <div className="">
+      <div className="flex flex-col items-center justify-center">
            <div className="grid lg:grid-cols-4 md:grid-cols-2 lg:max-w-[80%] m-[auto] mt-20 mb-20">
              <div className="flex rounded-2xl p-8 m-5 shadow-md items-center">
                    <div>
@@ -171,7 +171,7 @@ const About = () => {
 
               <div className="flex rounded-2xl p-8 m-5 shadow-md items-center">
                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-digit" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-digit" width="55" height="55" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M14 3v4a1 1 0 0 0 1 1h4" />
                         <rect x="9" y="12" width="3" height="5" rx="1" />
@@ -189,7 +189,7 @@ const About = () => {
 
               <div className="flex rounded-2xl p-8 m-5 shadow-md items-center">
                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop-analytics" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop-analytics" width="55" height="55" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <rect x="3" y="4" width="18" height="12" rx="1" />
                         <path d="M7 20h10" />
@@ -211,7 +211,7 @@ const About = () => {
 
               <div className="flex rounded-2xl p-8 m-5 shadow-md items-center">
                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="55" height="55" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <rect x="13" y="8" width="8" height="12" rx="1" />
                         <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
@@ -227,6 +227,49 @@ const About = () => {
              </div>
 
            </div>  
+
+           <div className="grid grid-cols-1 lg:grid-cols-3 m-[auto] items-center gap-10">
+               <div className="max-w-sm md:max-w-lg lg:max-w-sm bg-sky-100 rounded-3xl">
+                       <div className="p-2 pl-5 pt-8">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <rect x="4" y="5" width="16" height="16" rx="2" />
+                              <line x1="16" y1="3" x2="16" y2="7" />
+                              <line x1="8" y1="3" x2="8" y2="7" />
+                              <line x1="4" y1="11" x2="20" y2="11" />
+                              <line x1="11" y1="15" x2="12" y2="15" />
+                              <line x1="12" y1="15" x2="12" y2="18" />
+                            </svg>
+                       </div>
+                       <h1 className=" text-2xl font-bold p-2 pl-5">Sessions</h1>
+                       <p className="text-gray-500 p-2 pl-5 pb-8">Learn and teach and the baton is passed Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ipsam?</p>
+               </div>
+
+               <div className="max-w-sm md:max-w-lg lg:max-w-sm bg-orange-100 rounded-3xl">
+                       <div className="p-2 pl-5 pt-8">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flag-3" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M5 14h14l-4.5 -4.5l4.5 -4.5h-14v16" />
+                            </svg>
+                       </div>
+                       <h1 className=" text-2xl font-bold p-2 pl-5">Flagship Events</h1>
+                       <p className="text-gray-500 p-2 pl-5 pb-8">Hackaruto is what put us on the map and define the way Webwiz moves forward. Lorem ipsum dolor sit amet.</p>
+               </div>
+
+               <div className="max-w-sm md:max-w-lg lg:max-w-sm bg-green-100 rounded-3xl">
+                       <div className="p-2 pl-5 pt-8">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="13" y="8" width="8" height="12" rx="1" />
+                            <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
+                            <line x1="16" y1="9" x2="18" y2="9" />
+                          </svg>
+                       </div>
+                       <h1 className=" text-2xl font-bold p-2 pl-5">Workshop</h1>
+                       <p className="text-gray-500 p-2 pl-5 pb-8">We believe the best way to learn is through experiencing and we make sure we give you lots of it.</p>
+               </div>
+
+           </div>
       </div>
 
     </div>
