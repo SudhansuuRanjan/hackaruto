@@ -52,9 +52,10 @@ const Navbar = () => {
             className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
             flex flex-col justify-start items-center rounded-md bg-white text-black animate-slide-in text-2xl font-semibold"
           >
-            <li className="text-2xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
-            {["Home", "About", "Features","Services", "Contact"].map(
-              (item, index) => <a href={"#" + item} onClick={() => setToggleMenu(false)}><NavBarItem key={item + index} title={item} classprops="my-2 text-lg" /></a>,
+            <li className='bg-gray-100 p-4 pt-2 pb-2 rounded-[50%]  text-right absolute right-5'><AiOutlineClose className="text-2xl my-2" onClick={() => setToggleMenu(false)} /></li>
+            <div className='mb-12'></div>
+            {["Home", "About", "Projects","Events", "Team"].map(
+              (item, index) => <a href={"#" + item} onClick={() => setToggleMenu(false)} className='pt-5 pb-5'><NavBarItem key={item + index} title={item} classprops="my-2 text-lg" /></a>,
             )}
           </ul>
         )}

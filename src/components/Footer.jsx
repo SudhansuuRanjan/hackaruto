@@ -7,7 +7,7 @@ import { TiSocialLinkedin } from 'react-icons/ti';
 
 const Footer = () => {
     return (
-        <div className='bg-gray-100 mt-[5rem]'>
+        <div className='bg-gray-100 mt-[8rem]'>
                 
             <div className="footer-up flex flex-col justify-between md:flex-row">
               <div className='max-w-lg p-8 md:ml-[2rem]'>
@@ -50,10 +50,10 @@ const Footer = () => {
             <hr />
             <div className='flex flex-col  items-center justify-between md:flex-row'>
                 <h1 className='font-bold  p-3 md:ml-12'>
-                  © Copyright Hackaruto 2022 All Rights Reserved  
+                  © Copyright Hackaruto 2022
                 </h1>
                 <h1 className=' p-3 font-bold pt-0 md:mr-12'>
-                    Designed and Developed by <a href="" className='text-blue-600'>Sudhanshu Ranjan</a>
+                    Designed and Developed by <a href="" className='text-blue-600'>Sudhanshu</a>
                 </h1>
             </div>
         </div>
