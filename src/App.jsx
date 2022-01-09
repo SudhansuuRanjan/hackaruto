@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './index.css'
-import {Hero , Footer , Loader, NavBar, About, Projects, Domains, Events} from './components';
+import {Hero , Footer , Loader, NavBar, About, Projects, Domains, Events, Team} from './components';
 
 function App() {
   
@@ -13,6 +13,7 @@ function App() {
         <Projects/>
         <Domains/>
         <Events/>
+        <Team/>
       </div>
         <Loader/>
         <Footer/>
