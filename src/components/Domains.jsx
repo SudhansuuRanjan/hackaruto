@@ -33,7 +33,7 @@ const Domains = () => {
                    <div className='bg-orange-100 h-[3rem] w-[3rem] flex justify-center items-center rounded-lg mr-5'>
                         <TiTick className='text-orange-500 text-4xl m-[auto]'/>
                    </div>
-                    <h2 className='text-xl font-semibold'>Design & Content Team</h2>
+                    <h2 id='Events' className='text-xl font-semibold'>Design & Content Team</h2>
                 </div>
             </div>
         </div>

@@ -54,7 +54,7 @@ const Events = () => {
                    </p>
                     <div className='flex items-center justify-between mt-3'>
                         <p className='text-gray-400 text-sm'>Google Meet | 20.04.2022</p>
-                       <div className='text-gray-500 flex'>
+                       <div id='Team' className='text-gray-500 flex'>
                         <BiLink className='text-3xl cursor-pointer' />
                     </div>
                     </div>

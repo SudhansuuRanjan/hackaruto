@@ -4,13 +4,13 @@ import fitbit from '../../resources/fitbit.svg'
 import airbnb from '../../resources/airbnb.svg'
 import google from '../../resources/google.svg'
 import nasa from '../../resources/nasa.svg'
-import homeimg from '../../resources/home-img.svg'
+import homeimg from '../../resources/pair_programming.svg'
 
 const Hero = () => {
-    
+
     return (
-        <div className='hero flex flex-col items-center justify-center lg:justify-evenly mt-[8rem] lg:ml-[3rem] lg:flex-row '>
-           <div className="hero-left max-w-sm">
+        <div id="#Home" className='hero flex flex-col items-center justify-center lg:justify-evenly mt-[8rem] lg:ml-[3rem] lg:flex-row z-3'>
+           <div data-aos="fade-up" className="hero-left max-w-sm z-3" >
                <h1 className='text-4xl lg:text-5xl text-black font-bold '>
                    <span className='text-black flex'>
                       Simplify your
@@ -39,8 +39,8 @@ const Hero = () => {
                    </div>
                </div>
            </div>
-           <div className="z-1">
-               <img src={homeimg} alt="" className='h-[28rem] z-1  mt-[-2rem] md:mt-[0rem] lg:ml-[5rem] lg:mt-[1rem]'/>
+           <div className="z-1" data-aos="fade-up">
+               <img src={homeimg} alt="" className='h-[20rem] z-1 md:mt-[0rem] lg:ml-[5rem] lg:mt-[1rem]'/>
            </div>
         </div>
     )

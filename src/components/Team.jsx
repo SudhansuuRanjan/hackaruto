@@ -11,7 +11,7 @@ const Team = () => {
                 </h1>
             </div>
 
-            <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 m-[auto] mt-8'>
+            <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 m-[auto] mt-8'>
                 <TeamBP/>
                 <TeamBP/>
                 <TeamBP/>

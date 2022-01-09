@@ -3,8 +3,8 @@ import vision from './../../resources/vision-image.png'
 import about from './../../resources/about.jpg'
 const About = () => {
   return (
-    <div className="mt-5">
-      <h3 className="text-center text-[#0094FF]">About</h3>
+    <div className="mt-12 md:mt-[4rem]" id="About">
+      <h3 className="text-center text-[#0094FF]" >About</h3>
       <h1 className="text-center text-[#000] font-extrabold text-4xl">
         Not just any other
       </h1>
@@ -14,7 +14,7 @@ const About = () => {
 
       <div>
         <div className="flex container content-between items-center justify-center m-[auto] mt-20 mb-20 flex-col-reverse md:flex-col lg:flex-row">
-          <div className='bg-orange-100 max-w-xs md:max-w-xl lg:max-w-xl lg:max-h-[22rem]'>
+          <div className='bg-orange-50 max-w-xs md:max-w-xl lg:max-w-xl lg:max-h-[22rem]'>
                 <p className="text-orange-600 font-bold p-[2rem] pb-[0]">WHO WE ARE</p>
                 <h2 className="text-orange-900 text-2xl font-extrabold p-[2rem] pb-[0rem] pt-[1rem]">Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
                 <p className="text-gray-700 p-[2rem] pb-[3rem]">Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.</p>
@@ -27,7 +27,7 @@ const About = () => {
 
 
       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 justify-items-center m-[auto] gap-[1rem] mt-[2rem] md:mt-[5rem] lg:m-[6rem] mb-[4rem]">
-        <div className="bg-gray-200 max-w-xs text-center rounded-[1.5rem] border-b-4 border-box border-gray-200 hover:border-orange-500 ease-in duration-300 hover:drop-shadow-xl">
+        <div className="bg-gray-200 max-w-xs text-center rounded-[1.5rem] border-b-4 border-box border-gray-200 ">
           <div className="m-[auto] flex items-center justify-center max-w-[4rem]
                    pt-10 pb-5 mt-5">
             <div className="p-2 bg-orange-500 rounded-xl">
@@ -266,7 +266,7 @@ const About = () => {
                           </svg>
                        </div>
                        <h1 className=" text-2xl font-bold p-2 pl-5">Workshop</h1>
-                       <p className="text-gray-500 p-2 pl-5 pb-8">We believe the best way to learn is through experiencing and we make sure we give you lots of it.</p>
+                       <p id="Projects" className="text-gray-500 p-2 pl-5 pb-8">We believe the best way to learn is through experiencing and we make sure we give you lots of it.</p>
                </div>
 
            </div>
